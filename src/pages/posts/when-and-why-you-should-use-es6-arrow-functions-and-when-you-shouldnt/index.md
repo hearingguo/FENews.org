@@ -38,7 +38,7 @@ timesTwo(4);  // 8
 
 ## 变化
 
-![variations](./images/1_7mBpxeXkeSb-719jjHvgXA.jpeg)Variety is the spice of life
+![variations](./images/1_7mBpxeXkeSb-719jjHvgXA.jpeg)
 
 值得注意的是，箭头函数中可用的语法形式很多。例举一些常见的：
 
@@ -117,9 +117,11 @@ x =>({ y: x })
 ### **匿名会带来的一些问题：**
 
 **1、很难调试**
+
 当程序出错时，无法追踪匿名的函数或者具体出错行数。
 
 **2、不能自我调用**
+
 如果函数需要在任何地方进行自我调用，比如，递归、事件绑定再解绑，这些情况就不能使用箭头函数。
 
 ## 主要优点：无需绑定 ‘this’
